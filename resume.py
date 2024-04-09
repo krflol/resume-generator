@@ -14,26 +14,34 @@ def add_bullet_points(document, bullet_points, style):
 # Create a new Word document
 document = Document()
 
+FONT_STYLE = 'Arial'
+
 # Define styles
 document.styles.add_style('Name', WD_STYLE_TYPE.PARAGRAPH)
+document.styles['Name'].font.name = FONT_STYLE
 document.styles['Name'].font.size = Pt(18)
 document.styles['Name'].font.bold = True
 
 document.styles.add_style('Contact', WD_STYLE_TYPE.PARAGRAPH)
+document.styles['Contact'].font.name = FONT_STYLE
 document.styles['Contact'].font.size = Pt(11)
 
 document.styles.add_style('Section', WD_STYLE_TYPE.PARAGRAPH)
+document.styles['Section'].font.name = FONT_STYLE
 document.styles['Section'].font.size = Pt(14)
 document.styles['Section'].font.bold = True
 
 document.styles.add_style('Skill', WD_STYLE_TYPE.PARAGRAPH)
+document.styles['Skill'].font.name = FONT_STYLE
 document.styles['Skill'].font.size = Pt(11)
 
 document.styles.add_style('JobTitle', WD_STYLE_TYPE.PARAGRAPH)
+document.styles['JobTitle'].font.name = FONT_STYLE
 document.styles['JobTitle'].font.size = Pt(12)
 document.styles['JobTitle'].font.bold = True
 
 document.styles.add_style('BulletPoint', WD_STYLE_TYPE.PARAGRAPH)
+document.styles['BulletPoint'].font.name = FONT_STYLE
 document.styles['BulletPoint'].font.size = Pt(11)
 
 # Add name and contact information
