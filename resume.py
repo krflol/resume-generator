@@ -42,6 +42,7 @@ add_section(document, 'Pensacola, FL', 'Contact')
 add_section(document, 'keenanfinkelstein@gmail.com', 'Contact')
 add_section(document, '850-619-0756', 'Contact')
 add_section(document, 'linkedin.com/in/keenan-finkelstein-96200a42/', 'Contact')
+add_section(document, 'https://github.com/krflol/resume-generator', 'Contact')
 add_section(document, 'https://github.com/krflol/brAInstorm', 'Contact')
 add_section(document, 'https://github.com/krflol/Adornment', 'Contact')
 
